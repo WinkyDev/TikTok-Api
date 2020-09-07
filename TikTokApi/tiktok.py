@@ -72,7 +72,7 @@ class TikTokApi:
             'accept': 'application/json, text/plain, */*',
             "accept-encoding": "gzip, deflate, br",
             'accept-language': 'en-US,en;q=0.9',
-            "referrer": b.referrer,
+            "referer": b.referrer,
             'sec-fetch-dest': 'empty',
             'sec-fetch-mode': 'cors',
             'sec-fetch-site': 'same-site',
